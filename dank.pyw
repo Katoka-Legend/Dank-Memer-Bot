@@ -51,7 +51,7 @@ def login(driver):
         password_ele.click()
         time.sleep(2)
         password_ele.send_keys(Keys.DELETE)
-        password_ele.send_keys("AdvaitH123",Keys.ENTER)
+        password_ele.send_keys("",Keys.ENTER)
         # sub_btn = driver.find_elements_by_class_name("marginBottom8-AtZOdT")[1]
         # sub_btn.click()
         time.sleep(5)
